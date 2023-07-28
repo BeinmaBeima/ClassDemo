@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title('Groceries Data Visualization')
 
-DATA_URL = 'https://raw.githubusercontent.com/BeinmaBeima/ClassDemo/main/Groceries_dataset.csv'
+DATA_URL = 'https://github.com/BeinmaBeima/ClassDemo/blob/main/Groceries_dataset.csv'
 
 @st.cache
 def load_data():
