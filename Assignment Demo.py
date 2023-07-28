@@ -1,12 +1,11 @@
-# Import necessary libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Define the path to your CSV file
-file_path = 'Groceries_dataset.csv'
+# Define the URL to your CSV file on GitHub
+url = 'https://raw.githubusercontent.com/BeinmaBeima/ClassDemo/main/Groceries_dataset.csv'
 
 # Load the data
-data = pd.read_csv(file_path)
+data = pd.read_csv(url)
 
 # Calculate the frequency of each item
 item_counts = data['itemDescription'].value_counts().head(10)
